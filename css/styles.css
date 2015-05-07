@@ -1,0 +1,59 @@
+@import url(http://fonts.googleapis.com/css?family=Lustria|Antic|Molengo|Varela|Alef:400,700);
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-size: 62.5%;
+  font-family: lustria;
+  background-image: url(https://download.unsplash.com/44/C3EWdWzT8imxs0fKeKoC_blackforrest.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #998D78;
+  background-blend-mode: overlay;
+  color: #B9BAA3;
+}
+
+::selection {
+    color: #BFB983;
+    background: #B9BAA3;
+}
+
+.poem {
+  float: right;
+  padding: 5em;
+  background: linear-gradient(#D1BFA1,#D1C4AD);
+  background: #6B724C;
+  background: linear-gradient(#6B724C,#808765);
+  height: 100%;
+  box-sizing: border-box;
+  width: 60%;
+  min-width: 480px;
+  margin-right: 6%;
+  padding-left: 6%;
+}
+
+h1, p {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 1.4em;
+  letter-spacing: 2px;
+  color: #BFB983;
+  margin-bottom: .4em;
+}
+
+h1 span {
+  color: #808765;
+}
+
+p {
+  font-size: 1.7em;
+  line-height: 1.8em;
+}
